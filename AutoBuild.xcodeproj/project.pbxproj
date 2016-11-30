@@ -207,7 +207,6 @@
 				TargetAttributes = {
 					3273CB7B1DE7E26500E0D50C = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 777CEHTN68;
 						ProvisioningStyle = Automatic;
 					};
 					3273CB941DE7E26500E0D50C = {
@@ -427,7 +426,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 777CEHTN68;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AutoBuild/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ym.AutoBuild;
@@ -439,7 +439,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 777CEHTN68;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AutoBuild/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ym.AutoBuild;
@@ -516,6 +517,7 @@
 				3273CBAB1DE7E26500E0D50C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3273CBAC1DE7E26500E0D50C /* Build configuration list for PBXNativeTarget "AutoBuildTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +526,7 @@
 				3273CBAE1DE7E26500E0D50C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3273CBAF1DE7E26500E0D50C /* Build configuration list for PBXNativeTarget "AutoBuildUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +535,7 @@
 				3273CBB11DE7E26500E0D50C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
